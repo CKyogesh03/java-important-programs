@@ -5,7 +5,7 @@ import java.util.Set;
 public class FindDuplicate {
     static void method1(){
         int[] arr = {1, -2, 1, 3, -2, -2};
-        boolean[] visited=new boolean[arr.length];
+        boolean[] visited=new boolean[arr.length]; // initially false
         for (int i = 0; i < arr.length; i++){
             if(visited[i]==true)  //2. repeated elements will not iterate again
                 continue;
